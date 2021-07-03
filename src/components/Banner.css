@@ -1,0 +1,22 @@
+header {
+  color: black;
+}
+
+.banner {
+  color: #fff;
+  object-fit: contain;
+  height: 550px;
+  background-position: center center !important;
+  background-size: cover !important ;
+}
+
+.banner--fadeBottom {
+   padding-top: 550px;
+  height: 7.5rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
